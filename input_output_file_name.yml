@@ -1,0 +1,9 @@
+people_file : '/Users/jingcai/Downloads/people_new.xlsx'
+leave_file : '/Users/jingcai/Downloads/leave_balances.xlsx'
+rehire_contractor_file :  '/Users/jingcai/Downloads/rehire&转正.xlsx'
+last_year_left : '/Users/jingcai/Downloads/手动导入上一年累计年假.xlsx'
+diff_start_time: '/Users/jingcai/Downloads/入职时间不一致及2015年前政策问题汇总表.xlsx'
+compare_leave_output_file : '/Users/jingcai/Downloads/compare_leave.csv'
+
+leave_rehire_date: '/Users/jingcai/Downloads/users_info.xlsx'
+compare_leave_people: '/Users/jingcai/Downloads/leave_people.csv'
