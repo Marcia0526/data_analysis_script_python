@@ -8,8 +8,8 @@ auth_headers = {
 }
 
 auth_data = {
-    "grant_type": "client_credentials",
-    "scope": "api PsaInvoicesRead"
+    "grant_type": "",
+    "scope": ""
 }
 
 auth_url = ""
