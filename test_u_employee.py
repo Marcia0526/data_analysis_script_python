@@ -3,8 +3,8 @@ import requests
 import pandas as pd
 import numpy as np
 
-headers = {"X-Authorization": "mpRER92-HgeYj*R9avmX"}
-url = "https://us-central1-revenue-forecast-accuracy.cloudfunctions.net/u-api-prod/employees"
+headers = {"X-Authorization": ""}
+url = ""
 response = requests.get(url=url, headers=headers).json()
 print(response)
 response = response['data']
