@@ -2,16 +2,16 @@ import requests
 import pandas as pd
 
 auth_headers = {
-    "Authorization": "Basic MG9hcHd0NWdsZGtJaEphNTUwaDc6UEFna3BsYUF4emZWaDFmc0xtQkZEWGYyWHBzY21jdmRqWlREQXRfZQ==",
+    "Authorization": "",
     "Content-Type": "application/x-www-form-urlencoded"
 }
 
 auth_data = {
-    "grant_type": "client_credentials",
-    "scope": "api PsaInvoicesRead"
+    "grant_type": "",
+    "scope": ""
 }
 
-auth_url = "https://thoughtworks.oktapreview.com/oauth2/auseakslniuZCJMzf0h7/v1/token"
+auth_url = ""
 
 auth_response = requests.post(url=auth_url, headers=auth_headers, data=auth_data).json()
 access_token = "Bearer " + auth_response['access_token']
