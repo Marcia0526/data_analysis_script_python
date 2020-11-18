@@ -3,7 +3,7 @@ import pandas as pd
 
 
 auth_headers = {
-    "Authorization": "Basic MG9hcHd0NWdsZGtJaEphNTUwaDc6UEFna3BsYUF4emZWaDFmc0xtQkZEWGYyWHBzY21jdmRqWlREQXRfZQ==",
+    "Authorization": "",
     "Content-Type": "application/x-www-form-urlencoded"
 }
 
@@ -12,7 +12,7 @@ auth_data = {
     "scope": "api PsaInvoicesRead"
 }
 
-auth_url = "https://thoughtworks.oktapreview.com/oauth2/auseakslniuZCJMzf0h7/v1/token"
+auth_url = ""
 
 auth_response = requests.post(url=auth_url, headers=auth_headers, data=auth_data).json()
 
