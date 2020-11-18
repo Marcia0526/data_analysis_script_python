@@ -6,6 +6,7 @@ import numpy as np
 headers = {"X-Authorization": "mpRER92-HgeYj*R9avmX"}
 url = "https://us-central1-revenue-forecast-accuracy.cloudfunctions.net/u-api-prod/employees"
 response = requests.get(url=url, headers=headers).json()
+print(response)
 response = response['data']
 filtered_response = []
 print('original length:' + str(len(response)))
